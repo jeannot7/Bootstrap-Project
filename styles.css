@@ -1,0 +1,39 @@
+.hero-section {
+  background-image: url("./david-becker-58X3XfxxevU-unsplash.jpg"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+/* Optional overlay for better text readability */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  text-align: center;
+  padding: 180px;
+}
+.navbar-brand {
+  font-size: 45px;
+  font-style: italic;
+  font-family: Josefin sans;
+  color: #2467a3;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  border-top: 4px solid #1098ad;
+  padding: 16px;
+}
+.aurora {
+  color: #1098ad;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+}
